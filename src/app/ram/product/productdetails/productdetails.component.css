@@ -1,0 +1,6 @@
+.custome-table tbody tr td{
+    font-weight: bold;
+}
+.custome-table tbody tr td + td{
+    font-weight: 400;
+}

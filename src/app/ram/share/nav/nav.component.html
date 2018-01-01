@@ -1,0 +1,29 @@
+<nav class="navbar navbar-default navbar-static-top rohit-navigation">
+  <div class="container">
+      <div class="navbar-header">
+          <a class="navbar-brand">
+            Rohit Azad
+          </a>
+      </div>
+      <ul class="nav navbar-nav">
+          <li [routerLinkActive]="['active']">
+              <a [routerLink]="['/dashboard']">Home <span class="sr-only">(current)</span></a>
+            </li>
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/products']">Product</a></li>
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/contact']">Contact</a></li>
+          <!-- <li class="dropdown" dropdown> 
+              <a dropdownToggle role="button"> 
+                Dropdown <span class="caret"></span></a>
+              <ul *dropdownMenu class="dropdown-menu"> 
+                  <li><a >Action</a></li>
+                  <li><a >Another action</a></li>
+                  <li><a >Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a >Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a >One more separated link</a></li>
+              </ul>
+          </li> -->
+      </ul>
+  </div>
+</nav>

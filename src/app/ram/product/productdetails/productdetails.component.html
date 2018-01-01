@@ -1,0 +1,82 @@
+<div class='panel panel-primary' *ngIf='product'>
+    <div class='panel-heading'>
+        {{pageTitle + ': ' + product.productName}}
+    </div>
+    <div class='panel-body'>
+        <div class="row">
+          <div class="col-sm-8">
+              <table class="table custome-table">
+                <tbody>
+                  <tr>
+                    <td> Id</td>
+                    <td>{{product.productId}}</td>
+                  </tr>
+                  <tr>
+                    <td> Name</td>
+                    <td>{{product.productName}}</td>
+                  </tr>
+                  <tr>
+                    <td> Code</td>
+                    <td>{{product.productCode | lowercase | convertToSpace: '-'}}</td>
+                  </tr>
+                  <tr>
+                    <td> Release Date</td>
+                    <td>{{product.releaseDate}}</td>
+                  </tr>
+                  <tr>
+                      <td> Description</td>
+                      <td>{{product.description}}</td>
+                  </tr>
+                  <tr>
+                    <td> Price</td>
+                    <td>{{product.price | currency: '₹ '}}</td>
+                  </tr>
+                  <tr>
+                    <td> Star Rating</td>
+                    <td>
+                        <app-start-rating 
+                          [rating]="product.starRating">
+                        </app-start-rating>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          <div class="col-sm-4">
+            <img [src]="product.imageUrl" [alt]="product.productName" [title]="product.productName" [width]="imgWidth" [height]="imgHeight"  />
+          </div>
+        </div>
+    </div>
+    <div class='panel-footer'>
+        <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back
+        </a>
+    </div>
+</div>
+
+
+
+<div *ngIf="error404">
+  <div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{errorMessage.statusText}}
+    </div>
+    <div class='panel-body'>
+      <ul class="list-group">
+        <li class="list-group-item">message - {{errorMessage.message}}</li>
+        <li class="list-group-item">name - {{errorMessage.name}}</li>
+        <li class="list-group-item">ok - {{errorMessage.ok}}</li>
+        <li class="list-group-item">status - {{errorMessage.status}}</li>
+        <li class="list-group-item">status text - {{errorMessage.statusText}}</li>
+        <li class="list-group-item">url - {{errorMessage.url}}</li>
+      </ul>
+    </div>
+    <div class='panel-footer'>
+        <a class='btn btn-default' (click)='onBack()'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back to products list
+        </a>
+    </div>
+</div>
+</div>
+
+

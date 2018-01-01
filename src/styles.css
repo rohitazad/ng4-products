@@ -1,0 +1,144 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background:url(assets/images/iceland.jpg) no-repeat 0 0;
+    background-size:cover;
+}
+.bg{
+    background-image: url(assets/images/bg.png);
+    background-color: #f2f2f3;
+}
+.pD20{
+    padding:20px;
+}
+.rohit-navigation.navbar-default {
+    background-color: #3097D1 ;
+    border-radius: 0;
+    border-bottom: 3px solid #6b15a1;
+    margin-bottom: 20px;
+}
+.rohit-navigation.navbar-default.navbar-default .navbar-brand {
+    color: #6b15a1;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px hsla(0, 0%, 0%, 0.7);
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.rohit-navigation.navbar-default.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.rohit-navigation.navbar-default.navbar-default .navbar-nav>.active>a, 
+.rohit-navigation.navbar-default.navbar-default .navbar-nav>.active>a:focus, 
+.rohit-navigation.navbar-default.navbar-default .navbar-nav>.active>a:hover{
+    color: #fff;
+    background-color: #6b15a1;
+}
+.rohit-navigation.navbar-default.navbar-default .navbar-nav>.open>a, 
+.rohit-navigation.navbar-default.navbar-default .navbar-nav>.open>a:focus, 
+.rohit-navigation.navbar-default.navbar-default .navbar-nav>.open>a:hover{
+    color: #fff;
+    background-color: #6b15a1;
+}
+
+.footer{
+    background-color: #007ea4;
+    position: relative;
+    border: 0;
+    margin-top: 50px;
+}
+.footer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -40px;
+    background: url(assets/images/footer.png) repeat-x 0 0;
+    height: 40px;
+}
+.heading5 {
+    text-align: center;
+    color: #fff;
+    font-size: 29px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+.socialIcon, .footerLinking {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.socialIcon li, .footerLinking li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.socialIcon li {
+    text-decoration: none;
+    font-size: 0px;
+    box-shadow: 1px 1px 7px 0px rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 15px 0;
+    -moz-border-radius: 15px 0;
+    border-radius: 15px 0;
+    background-color: #fff;
+    webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.socialIcon li + li {
+    margin-left: 10px;
+}
+.socialIcon li a {
+    display: block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 50px;
+}
+.socialIcon li:hover, 
+.socialIcon li:hover .fa {
+    webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.socialIcon li a:hover {
+    box-shadow: none;
+}
+.footerLinking li a {
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+    margin-right: 20px;
+}
+.footerLinking li a:after {
+    content: "";
+    position: absolute;
+    right: -13px;
+    top: 2px;
+    bottom: 3px;
+    border-right: solid 2px #fff;
+}
+.foText {
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+}
+.foText a {
+    color: #fff;
+    text-decoration: underline;
+}
+.crop {
+    overflow: hidden;
+}

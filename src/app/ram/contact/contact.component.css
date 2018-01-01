@@ -1,0 +1,77 @@
+.list-group .list-group-item span{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    font-weight: bold;
+}
+.contactSocialIcon{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.contactSocialIcon >li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    width:50px;
+    text-align: center;
+}
+.contactSocialIcon >li + li{
+    margin-left:10px;
+}
+.contactSocialIcon >li > a{
+    display:inline-block;
+    vertical-align: top;
+    -webkit-border-top-right-radius: 500px;
+    -webkit-border-bottom-right-radius: 500px;
+    -webkit-border-bottom-left-radius: 500px;
+    -webkit-border-top-left-radius: 500px;
+    -moz-border-radius-topright: 500px;
+    -moz-border-radius-bottomright: 500px;
+    -moz-border-radius-bottomleft: 500px;
+    -moz-border-radius-topleft: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-top-left-radius: 500px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+    color: #6b15a1;
+    border: 2px solid #6b15a1;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.contactSocialIcon >li a:hover {
+    color: #3583ed;
+    border: 2px solid #272425;
+    border-color: #3583ed;
+    moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -ms--transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    -ms-transition: all .4s;
+    transition: all .4s;
+    border-width: 2px;
+}
+.contactSocialIcon >li > a >span{
+    width:auto;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    line-height: 50px;
+}

@@ -1,0 +1,12 @@
+[
+      {
+        "productId": 1,
+        "productName": "Apple iPhone SE (Rose Gold, 32 GB)",
+        "productCode": "IPSE-3212",
+        "releaseDate": "March 19, 2016",
+        "description": "32 GB ROM | 4 inch Retina Display | 12MP Rear Camera | 1.2MP Front Camera | Li-Ion Battery. | Apple A9 64-bit processor and Embedded M9 Motion Co-processor | ",
+        "price": 26000,
+        "starRating": 4.4,
+        "imageUrl": "http://www.rohitazad.com/images/ngData/apple-iphone-se.jpeg"
+    }
+  ]
