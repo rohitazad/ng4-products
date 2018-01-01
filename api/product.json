@@ -1,0 +1,52 @@
+[
+      {
+        "productId": 1,
+        "productName": "Apple iPhone SE (Rose Gold, 32 GB)",
+        "productCode": "IPSE-3212",
+        "releaseDate": "March 19, 2016",
+        "description": "32 GB ROM | 4 inch Retina Display | 12MP Rear Camera | 1.2MP Front Camera | Li-Ion Battery.",
+        "price": 26000,
+        "starRating": 4.4,
+        "imageUrl": "http://www.rohitazad.com/images/ngData/apple-iphone-se.jpeg"
+    },
+    {
+        "productId": 2,
+        "productName": "Samsung Galaxy On Nxt (Black, 64 GB)  (3 GB RAM)",
+        "productCode": "SSNXT-6403",
+        "releaseDate": "March 18, 2017",
+        "description": "3 GB RAM | 64 GB ROM | Expandable Upto 256 GB | 5.5 inch Full HD Display | 13MP Rear Camera | 8MP Front Camera | 3300 mAh Li-Ion Battery",
+        "price": 14900.56,
+        "starRating": 4.2,
+        "imageUrl": "http://www.rohitazad.com/images/ngData/samsung-galaxy-on-nxt-sm.jpeg"
+    },
+    {
+        "productId": 3,
+        "productName": "Moto C Plus (Fine Gold, 16 GB)  (2 GB RAM)",
+        "productCode": "MOTOC-1602",
+        "releaseDate": "May 21, 2016",
+        "description": "2 GB RAM | 16 GB ROM | Expandable Upto 32 GB | 5 inch HD Display|8MP Rear Camera | 2MP Front Camera|4000 mAh Battery|Mediatek MTK6737 Quad Core 1.3Ghz Processor|Android Nougat 7.0 | Stock Android Version",
+        "price": 6999.34,
+        "starRating": 4.1,
+        "imageUrl": "http://www.rohitazad.com/images/ngData/motorola-moto-c-plus.jpeg"
+    },
+    {
+        "productId": 4,
+        "productName": "Yu Yureka 2 (Champagne/Gold, 64 GB)  (4 GB RAM)",
+        "productCode": "YU-26404",
+        "releaseDate": "Nov 15, 2017",
+        "description": "4 GB RAM | 64 GB ROM | Expandable Upto 128 GB | 5.5 inch Full HD Display | 16MP Rear Camera | 8MP Front Camera | 3930 mAh Battery |  Qualcomm Snapdragon 625 Octa Core 2GHz Processor |     4G VoLTE Support",
+        "price": 14000.34,
+        "starRating": 4.1,
+        "imageUrl": "http://www.rohitazad.com/images/ngData/yu-yu5551-na-original.jpeg"
+    },
+    {
+        "productId": 5,
+        "productName": "Redmi Note 4 (Gold, 64 GB)  (4 GB RAM)",
+        "productCode": "REDMI-4644",
+        "releaseDate": "Jan 15, 2016",
+        "description": "4 GB RAM | 64 GB ROM | Expandable Upto 128 GB | 5.5 inch Full HD Display | 13MP Rear Camera | 5MP Front Camera |  4100 mAh Li-Polymer Battery | Qualcomm Snapdragon 625 64-bit Octa Core 2GHz Processor",
+        "price": 12999.34,
+        "starRating": 4.4,
+        "imageUrl": "http://www.rohitazad.com/images/ngData/mi-redmi-note-4-na-original.jpeg"
+    }
+  ]
