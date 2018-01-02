@@ -1,7 +1,7 @@
 
 Live demo Git Hub URL is https://rohitazad.github.io/ng4-products/
 
-Live demo site url is https://rohitazad.github.io/ng4-products/
+Live demo site url is http://rohitazad.com/ng4-products/
 
 
 1. git clone https://github.com/rohitazad/ng4-products.git
