@@ -1,3 +1,18 @@
+
+Live demo Git Hub URL is https://rohitazad.github.io/ng4-products/
+
+Live demo site url is https://rohitazad.github.io/ng4-products/
+
+
+1. git clone https://github.com/rohitazad/ng4-products.git
+2. cd ng4-products
+3. npm install
+4. npm start
+5. open your browser localhost:4200
+
+
+Enjoy to this app. :) 
+
 # FormApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
